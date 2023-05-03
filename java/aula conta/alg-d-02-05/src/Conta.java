@@ -1,4 +1,5 @@
 public class Conta {
+    double Si;
     public double getSaldo(){
         return Saldo;
     }
@@ -11,7 +12,8 @@ public class Conta {
     }
   
 
-    public setSaldo(double S) {
+    public void setSaldo(double S) {
+        
         this.Saldo = Si;
     }
 }
